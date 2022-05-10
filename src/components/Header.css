@@ -1,0 +1,23 @@
+.header {
+  height: 57px;
+  background-color: #7c7c7cf5;
+  padding: 5px 20px;
+  color: white;
+  position: fixed;
+  width: calc(100% - 40px);
+  top: 0;
+  left: 0;
+  z-index: 9;
+  box-shadow: 1px 2px 1px rgb(141, 140, 140);
+}
+
+.header .navbar {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 45px;
+}
+
+.header .navbar > h3 {
+  line-height: 18px;
+  text-shadow: 4px 2px 14px black;
+}

@@ -1,0 +1,28 @@
+.footer {
+  position: fixed;
+  bottom: 20px;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.footer input {
+  line-height: 30px;
+  margin: 10px;
+  padding: 5px 10px;
+  font-size: 16px;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.search-bar {
+  padding: 0 10px;
+  background: #1f1f1f80;
+  border-radius: 8px;
+}
+
+@media screen and (max-width: 768px) {
+  .footer input {
+    display: block;
+  }
+}
